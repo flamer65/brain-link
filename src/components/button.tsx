@@ -4,7 +4,7 @@ export interface ButtonProps {
      text: string
      startIcon?: any;
      endIcon?: any;
-     onClick: ()=> void;
+     onClick?: ()=> void;
 }
 const variantStyles = {
      "primary": "bg-purple-300 text-white",
