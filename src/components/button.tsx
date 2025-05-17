@@ -7,12 +7,13 @@ export interface ButtonProps {
      onClick?: ()=> void;
 }
 const variantStyles = {
-     "primary": "bg-purple-300 text-white",
+     "primary": "bg-purple-600 text-white",
      "secondry": "bg-purple-400 text-purple-600"      
 }
 const defaultStyles = "rounded-md p-4";      
 const sizeStyle = {
      "sm": "p-2",
+
      "md": "p-4",
      "lg": "p-6"
 }

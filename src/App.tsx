@@ -5,6 +5,7 @@ function App() {
   return (
     <>
     <Button size="sm" variant="primary" text="share"/>
+    <Button size="lg" variant="secondry" text="share"/>
     </>
   )
 }
