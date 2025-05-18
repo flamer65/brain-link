@@ -1,11 +1,11 @@
-import { Button } from './components/button'
+import { Button } from './components/button';
 
 function App() {
   
   return (
     <>
     <Button size="sm" variant="primary" text="share"/>
-    <Button size="lg" variant="secondry" text="share"/>
+    <Button size="md" variant="secondry" text="share"/>
     </>
   )
 }
